@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Toggle from "./components/state/Toggle";
+import YoutubeList from "./components/youtube/YoutubeList";
 
 function App() {
+ const name = "ABCD"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+     <YoutubeList>
+      {name}
+    </YoutubeList> 
+
+    <Toggle></Toggle>
+  </div>
   );
 }
+// Props -> Properties
 
 export default App;

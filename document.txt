@@ -1,0 +1,34 @@
+Auto Rename tag 
+Babel Javascript
+Bookmarks
+DotENV
+ESLint
+Javascript (ES6) code snippets
+Prettier
+Reactjs code snippets
+Tailwind Console log
+Visual Studio IntelliCode
+vscode-styled-components
+=> Cài NodeJs
+=> Cài đặt trên chrome: react dev tool, redux dev tool, Visbug
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+Toolchain - create-react-app
+
+- Component là gì? Cho phép chia nhỏ UI thành nhiều phần(header, footer, blog, nav...) dễ tái sử dụng.
+
+- Props : Properties: id, class,..: Những cái truyền vào component để thay đổi 
+- Style: ininline style or css 
+- Rendering List: data
+- prop children: liên quan tới layout
+- State: là thông tin dc lưu bên trong components và components có thể thay đổi thông tin bên trong đó
+vd như thông tin submit form 
+- React Hook: tính năng cho phép sử dụng state và các tính năng khác mà ko cần sử dụng class, dc sử dụng trong functional components 
++ stateless functional component: component nhưng ko sử dụng state
++ statefull functional component: component có sử dụng state
+
+- Nguyeen tắc khi sử dụng hook: để trên cùng của function or components, ko dc viết trong vòng lặp, câu điều kiện 
+
